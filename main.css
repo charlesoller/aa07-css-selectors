@@ -6,8 +6,39 @@
     text-indent: 0em;
 }
 
+#page-title {
+    font-weight: bold;
+}
+
+.pagenum {
+    position: absolute;
+    right: 10px;
+    font-size: small;
+}
+
 body > p {
     text-indent: 1em;
+    text-align: justify;
+    /* margin-top: 0.75em;
+    margin-bottom: 0.75em; */
+    margin: 0.75em 0;
+}
+pre {
+    margin: 100px auto;
+    width: fit-content;
+}
+
+pre > a {
+color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 h1, h2, h3 {
